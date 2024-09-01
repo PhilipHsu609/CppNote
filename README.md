@@ -2,6 +2,7 @@
 
 ## C++11
 
+- `auto` keyword
 - [Constant Expression](./src/basics/const.cpp)
 - [Move Semantic](./src/oop/ctor-dtor.cpp)
 
@@ -22,9 +23,10 @@
 
 ## C++20
 
+- `auto` as function parameter type
 - Consteval, Constinit
 - Designated Initializers
-- Spaceship Operator `<=>`
+- Spaceship Operator `<=>` (three-way comparision operator)
 - Template
   - float type parameter
   - class literal type parameter
@@ -52,3 +54,5 @@
     - `enum`, `enum class`
     - Pointer, Pointer to member
     - Array, Class, Struct, Union
+  - Assignment, Compound and Comma operator
+  - `std::size_t`, `std::ptrdiff_t`
