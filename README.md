@@ -12,6 +12,9 @@
 
 ## C++17
 
+- Initializing statement
+  - `if(int y = x + 1 > 10)`
+  - `switch(auto i = f(); x)`
 - [Structured Bindings](./src/basics/struct-bitfield-union.cpp)
 - [Constexpr Lambda](./src/basics/func.cpp)
 - [Feature Testing Macro](./src/basics/preproc.cpp)
@@ -24,6 +27,8 @@
 ## C++20
 
 - `auto` as function parameter type
+- Initializing statement
+  - `for(int i = 0; auto x : container)`
 - Consteval, Constinit
 - Designated Initializers
 - Spaceship Operator `<=>` (three-way comparision operator)
