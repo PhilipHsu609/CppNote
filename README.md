@@ -37,6 +37,7 @@
   - `struct A {int x, y, z;}; A a{.x=1, .y=2, .z=3};`
 - `std::bit_cast` (type punning)
 - Spaceship Operator `<=>` (three-way comparision operator)
+- `#include <source_location>`
 - Template
   - Lambda with `requires`
   - float type parameter
@@ -100,3 +101,10 @@
     - Function pointers
     - Function overloading
   - Lambdas
+- [Preprocessor](./src/basics/preproc.cpp)
+  - Macro
+  - Conditional compiling
+  - Feature testing macro
+  - Stringizing macro
+  - `#pragma`
+  - Token-pasting macro
