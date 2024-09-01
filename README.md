@@ -34,6 +34,7 @@
   - `std::is_constant_evaluated()`
 - Designated Initializer list
   - `struct A {int x, y, z;}; A a{.x=1, .y=2, .z=3};`
+- `std::bit_cast` (type punning)
 - Spaceship Operator `<=>` (three-way comparision operator)
 - Template
   - float type parameter
@@ -65,6 +66,8 @@
     - Array, Class, Struct, Union
   - Assignment, Compound and Comma operator
   - `std::size_t`, `std::ptrdiff_t`
+  - Type cast
+    - `static_cast`, `reinterpret_cast`
 - [Floating point](./src/basics/float.cpp)
   - Machine epsilon
 - [enum, enum class](./src/basics/enums.cpp)
