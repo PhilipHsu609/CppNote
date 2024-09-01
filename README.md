@@ -9,6 +9,7 @@
 ## C++14
 
 - [Variable Template](./src/template/variable.cpp)
+- [Generic Lambda](./src/basics/func.cpp)
 
 ## C++17
 
@@ -37,6 +38,7 @@
 - `std::bit_cast` (type punning)
 - Spaceship Operator `<=>` (three-way comparision operator)
 - Template
+  - Lambda with `requires`
   - float type parameter
   - class literal type parameter
   - alias template deduction
@@ -93,3 +95,8 @@
   - Constants
   - Constant expressions
   - Volatile
+- [Functions and Lambdas](./src/basics/func.cpp)
+  - Functions
+    - Function pointers
+    - Function overloading
+  - Lambdas
