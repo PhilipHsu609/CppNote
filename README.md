@@ -15,6 +15,7 @@
 - Initializing statement
   - `if(int y = x + 1 > 10)`
   - `switch(auto i = f(); x)`
+- [if constexpr](./src/basics/const-vol.cpp)
 - [Structured Bindings](./src/basics/struct-bitfield-union.cpp)
 - [Constexpr Lambda](./src/basics/func.cpp)
 - [Feature Testing Macro](./src/basics/preproc.cpp)
@@ -30,6 +31,7 @@
 - Initializing statement
   - `for(int i = 0; auto x : container)`
 - Consteval, Constinit
+  - `std::is_constant_evaluated()`
 - Designated Initializer list
   - `struct A {int x, y, z;}; A a{.x=1, .y=2, .z=3};`
 - Spaceship Operator `<=>` (three-way comparision operator)
@@ -45,6 +47,7 @@
 
 ## C++23
 
+- `if consteval`
 - `std::print`, `std::println`
 
 ## Basics
@@ -83,3 +86,7 @@
     - Direct initialization
     - Value initialization
     - List initialization
+- [CV-qualifier](./src/basics/const-vol.cpp)
+  - Constants
+  - Constant expressions
+  - Volatile
