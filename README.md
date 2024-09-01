@@ -30,7 +30,8 @@
 - Initializing statement
   - `for(int i = 0; auto x : container)`
 - Consteval, Constinit
-- Designated Initializers
+- Designated Initializer list
+  - `struct A {int x, y, z;}; A a{.x=1, .y=2, .z=3};`
 - Spaceship Operator `<=>` (three-way comparision operator)
 - Template
   - float type parameter
@@ -71,3 +72,14 @@
   - Union
 - [Attributes](./src/basics/attributes.cpp)
   - `deprecated`, `noreturn`, `nodiscard`, `maybe_unused`, `fallthough`
+- [Memory and Initialization](./src/basics/memory-init.cpp)
+  - Memory
+    - Dynamic memory allocation
+      - `std::bad_alloc`
+      - `std::nothrow`
+  - Initialization
+    - Zero initialization
+    - Default initialization
+    - Direct initialization
+    - Value initialization
+    - List initialization
