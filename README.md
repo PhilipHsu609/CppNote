@@ -64,3 +64,5 @@
     - Named struct, unnamed struct
   - Bitfield
   - Union
+- [Attributes](./src/basics/attributes.cpp)
+  - `deprecated`, `noreturn`, `nodiscard`, `maybe_unused`, `fallthough`
