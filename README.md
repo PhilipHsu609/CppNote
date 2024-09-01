@@ -58,3 +58,4 @@
   - `std::size_t`, `std::ptrdiff_t`
 - [Floating point](./src/basics/float.cpp)
   - Machine epsilon
+- [enum, enum class](./src/basics/enums.cpp)
