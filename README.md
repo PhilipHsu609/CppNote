@@ -56,3 +56,5 @@
     - Array, Class, Struct, Union
   - Assignment, Compound and Comma operator
   - `std::size_t`, `std::ptrdiff_t`
+- [Floating point](./src/basics/float.cpp)
+  - Machine epsilon
