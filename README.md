@@ -150,3 +150,6 @@
 - [Template variables](./src/template/variable.cpp)
 - [Compile-time utilities](./src/template/utility.cpp)
   - `static_assert`, `using`, `decltype`, `type_traits`
+- [Class template](./src/template/class.cpp)
+  - Partial and full specilization
+  - CTAD
