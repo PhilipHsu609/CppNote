@@ -47,8 +47,8 @@
   - alias template deduction
   - concept (better SFINAE)
   - no deduction rules for aggregates
-- `std::format`
-- `std::span`
+- Modules
+- `std::format`, `std::span`
 - Ranges
 
 ## C++23
@@ -156,3 +156,13 @@
 - [Meta programming](./src/template/meta.cpp)
 - [SFINAE](./src/template/SFINAE.cpp)
 - [Variadic template](./src/template/variadic.cpp)
+
+## Translation Units
+
+- [Linkage](./src/linkage)
+  - Internal and external
+- Storage duration
+  - Automatic, static, dynamic and thread storage
+- One definition rule
+- `inline` functions and variables
+- [Namespace](./src/basics/namespace.cpp)
