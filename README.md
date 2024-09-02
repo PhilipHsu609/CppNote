@@ -115,3 +115,10 @@
   - Hierarchy
   - Virtual classes
   - Class member overloading with different qualifiers
+- [Constructor and destructor](./src/oop/ctor-dtor.cpp)
+  - Default , copy, move contrustors
+  - Delegate contructors
+  - Destructors
+  - Member initialization order
+  - `explicit`, `static`, `const`, `mutable` keyword
+- [RAII](./src/oop/RAII.cpp)
