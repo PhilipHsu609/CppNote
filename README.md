@@ -127,3 +127,6 @@
   - Virtual table
   - `override`, `final` keywords
   - Static polymorphism
+- [Casting and RTTI](./src/oop/cast-RTTI.cpp)
+  - RTTI
+    - `dynamic_cast`, `typeid`, `type_info`
