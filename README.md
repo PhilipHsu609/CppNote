@@ -134,3 +134,10 @@
   - RTTI
     - `dynamic_cast`, `typeid`, `type_info`
 - [Operator overloading](./src/oop/oo.cpp)
+- [Object layout](./src/oop/object-layout.cpp)
+  - Aggregate
+  - Trivial copyable
+  - Standard layout
+  - Plain-old data
+    - Equivalent to trivial copyable and standard layout
+    - Deprecated in C++20
