@@ -141,3 +141,7 @@
   - Plain-old data
     - Equivalent to trivial copyable and standard layout
     - Deprecated in C++20
+
+## Template (Meta programming)
+
+- [Function template](./src/template/func.cpp)
