@@ -20,6 +20,8 @@
 - [Structured Bindings](./src/basics/struct-bitfield-union.cpp)
 - [Constexpr Lambda](./src/basics/func.cpp)
 - [Feature Testing Macro](./src/basics/preproc.cpp)
+- Template
+  - `auto` placeholder
 - [String View](./src/std/string.cpp)
 - [Variant](./src/std/variant.cpp)
 - [Optional](./src/std/optional-any.cpp)
@@ -145,3 +147,4 @@
 ## Template (Meta programming)
 
 - [Function template](./src/template/func.cpp)
+- [Template variables](./src/template/variable.cpp)
