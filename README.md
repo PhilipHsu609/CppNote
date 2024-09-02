@@ -52,6 +52,9 @@
 ## C++23
 
 - `if consteval`
+- Multidimensional subscript operator
+  - `int operator[](int x, int y)`
+- `static int operator()`, `static int operator[]`
 - `std::print`, `std::println`
 
 ## Basics
@@ -130,3 +133,4 @@
 - [Casting and RTTI](./src/oop/cast-RTTI.cpp)
   - RTTI
     - `dynamic_cast`, `typeid`, `type_info`
+- [Operator overloading](./src/oop/oo.cpp)
