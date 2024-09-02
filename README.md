@@ -154,3 +154,5 @@
   - Partial and full specilization
   - CTAD
 - [Meta programming](./src/template/meta.cpp)
+- [SFINAE](./src/template/SFINAE.cpp)
+- [Variadic template](./src/template/variadic.cpp)
