@@ -148,3 +148,5 @@
 
 - [Function template](./src/template/func.cpp)
 - [Template variables](./src/template/variable.cpp)
+- [Compile-time utilities](./src/template/utility.cpp)
+  - `static_assert`, `using`, `decltype`, `type_traits`
