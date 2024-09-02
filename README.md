@@ -122,3 +122,8 @@
   - Member initialization order
   - `explicit`, `static`, `const`, `mutable` keyword
 - [RAII](./src/oop/RAII.cpp)
+- [Polymorphism](./src/oop/poly.cpp)
+  - Virtual methods
+  - Virtual table
+  - `override`, `final` keywords
+  - Static polymorphism
