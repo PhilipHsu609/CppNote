@@ -25,13 +25,13 @@ T ceil_div(T value, T div); // template function declaration
 // std::enable_if_t as a hidden template parameter
 
 // specialization for signed T
-template <typename T, std::enable_if_t<std::is_signed_v<T>> = 0>
+template <typename T, std::enable_if_t<std::is_signed_v<T>, T> = 0>
 T ceil_div(T value, T div) {
     return (value > 0 && div > 0) ? (value + div - 1) / div : value / div;
 }
 
 // specialization for unsigned T
-template <typename T, std::enable_if_t<!std::is_signed_v<T>> = 0>
+template <typename T, std::enable_if_t<!std::is_signed_v<T>, T> = 0>
 T ceil_div(T value, T div) {
     return (value + div - 1) / div;
 }
