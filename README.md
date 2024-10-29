@@ -147,6 +147,7 @@
 ## Template (Meta programming)
 
 - [Function template](./src/template/func.cpp)
+  - Template argument deduction
 - [Template variables](./src/template/variable.cpp)
 - [Compile-time utilities](./src/template/utility.cpp)
   - `static_assert`, `using`, `decltype`, `type_traits`

@@ -1,4 +1,5 @@
 #include <string>
+#include <type_traits>
 
 template <typename T>
 T add(T a, T b) {
@@ -10,7 +11,8 @@ T add(T a, T b) {
 //   - useful for libraries, generate all possible instantiations before the user uses
 //     them
 //   - allows to separate the declaration (in header file) and definition (in source file)
-template std::string add<std::string>(std::string, std::string);
+template <>
+std::string add<std::string>(std::string, std::string);
 
 /*
     Template parameter types can be
@@ -78,3 +80,50 @@ template <>
 bool equal<float>(float a, float b) {
     return std::abs(a - b) < 1e-6;
 }
+
+namespace ArgumentDeduction {
+template <typename T>
+T max(T a, T b);
+
+void test1() {
+    max(1, 2);     // T is int
+    max(1.0, 2.0); // T is double
+    // max(1, 2.0);   // error, T cannot be deduced
+
+    const int a = 1, b = 2;
+    max(a, b); // T is int
+
+    int i = 1;
+    int arr[3] = {1, 2, 3};
+    max(&i, arr); // T is int*
+
+    max<double>(1, 2); // T is double
+}
+
+// template parameters for return types
+template <typename RT, typename T1, typename T2>
+RT f1(T1 a, T2 b) {
+    return a + b;
+}
+// deducing return type (since C++14)
+template <typename T1, typename T2>
+auto f2(T1 a, T2 b) {
+    return a + b;
+}
+// trailing return type (since C++11)
+template <typename T1, typename T2>
+auto f3(T1 a, T2 b) -> decltype(a + b) {
+    return a + b;
+}
+// what if the return type is a reference? We don't want that
+// std::decay_t removes reference, const, and volatile qualifiers
+template <typename T1, typename T2>
+auto f4(T1 a, T2 b) -> typename std::decay_t<decltype(a + b)> {
+    return a + b;
+}
+// return common type
+template <typename T1, typename T2>
+std::common_type_t<T1, T2> f5(T1 a, T2 b) {
+    return a + b;
+}
+} // namespace ArgumentDeduction
