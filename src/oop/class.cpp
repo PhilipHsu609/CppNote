@@ -1,3 +1,15 @@
+namespace MemberFunctions {
+class A {
+  public:
+    // Each member function has an implicit parameter called "this"
+    void foo(int) {} // void foo(A *this, int) {}
+};
+void test() {
+    A a;
+    a.foo(1); // equivalent to A::foo(&a, 1);
+}
+} // namespace MemberFunctions
+
 namespace Hierarchy {
 struct Base {};
 struct Derived : Base {};
