@@ -10,8 +10,8 @@
 #include <type_traits>
 
 namespace Basic {
-template <typename... TArgs> // variadic typename -> parameter pack
-void f(TArgs... args) {      // pack expansion
+template <typename... TArgs> // variadic typename ->  TArgs is a template parameter pack
+void f(TArgs... args) {      // args is a function parameter pack
     auto numOfArgs = sizeof...(args);
 }
 
