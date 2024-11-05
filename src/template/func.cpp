@@ -57,7 +57,7 @@ T ceil_div(T b) {
 template <typename = void>
 void g() {} // g() is generated if it is called
 
-void f() {
+void test() {
     add(1, 2);     // implicit template instantiation (add<int>)
     add(1.0, 2.0); // implicit template instantiation (add<double>)
     add<3, 3>();   // compile-time computation
@@ -127,3 +127,38 @@ std::common_type_t<T1, T2> f5(T1 a, T2 b) {
     return a + b;
 }
 } // namespace ArgumentDeduction
+
+namespace ArrayAndCString {
+template <typename T>
+void foo(const T &t);
+
+template <typename T>
+void bar(T t);
+
+// specialization for arrays and C-strings
+template <typename T, std::size_t N>
+void foo2(const T (&t)[N]);
+
+// or using enable_if
+template <typename T, typename = std::enable_if_t<std::is_array_v<T>>>
+void foo(T &&t);
+
+void test() {
+    int arr[3] = {1, 2, 3};
+    foo(arr);  // T is int[3]
+    foo2(arr); // T is int, N is 3
+
+    const char *str = "hello";
+    foo(str); // T is const char*
+
+    foo("hello"); // T is char[6]
+    foo("hi");    // T is char[3]
+
+    foo2("hello"); // T is char, N is 6
+    foo2("hi");    // T is char, N is 3
+
+    bar(arr);     // T is int* (array decays to pointer)
+    bar(str);     // T is const char*
+    bar("hello"); // T is const char*
+}
+} // namespace ArrayAndCString
