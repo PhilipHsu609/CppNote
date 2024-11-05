@@ -5,6 +5,8 @@
     3. decltype
     4. type_traits
 */
+#include <cassert>
+#include <memory>
 #include <type_traits>
 
 namespace Static_assert {
@@ -80,5 +82,33 @@ template <typename T>
 void f(T ptr) {
     using R = std::remove_pointer_t<T>;
     R x = *ptr;
+}
+
+//! Const reference
+void test_cr() {
+    // Reference is not a const type
+    // "const reference" === "reference to const", there is no "const reference"
+    // reference itself is not an object, so it can't be const, but it also can't be
+    // modified, so it's always const
+    //
+    // const int & === int const &
+    // std::remove_const_t removes the top-level const qualifier
+    static_assert(std::is_same_v<std::remove_const_t<const int &>, const int &>);
+    // remove reference first, then remove const
+    static_assert(
+        std::is_same_v<std::remove_const_t<std::remove_reference_t<const int &>>, int>);
+    // use std::decay to remove both const and reference
+    static_assert(std::is_same_v<std::decay_t<const int &>, int>);
+}
+
+// std::addressof
+void test_addr() {
+    // std::addressof returns the actual address of an object, even if the object has an
+    // overloaded operator&
+    int x = 0;
+    int *p = &x;
+    int *q = std::addressof(x);
+    // p and q are the same
+    assert(p == q);
 }
 } // namespace Type_traits
