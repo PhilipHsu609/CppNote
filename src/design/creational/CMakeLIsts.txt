@@ -1,8 +1,3 @@
-add_executable(SOLID)
-target_sources(SOLID PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/SOLID.cpp)
-target_link_libraries(SOLID PRIVATE fmt::fmt)
-target_link_libraries(SOLID PRIVATE compile_flags_interface)
-
 add_executable(builder)
 target_sources(builder PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/builder.cpp)
 target_link_libraries(builder PRIVATE fmt::fmt)
