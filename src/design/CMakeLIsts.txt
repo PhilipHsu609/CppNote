@@ -7,3 +7,13 @@ add_executable(builder)
 target_sources(builder PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/builder.cpp)
 target_link_libraries(builder PRIVATE fmt::fmt)
 target_link_libraries(builder PRIVATE compile_flags_interface)
+
+add_executable(singleton)
+target_sources(singleton PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/singleton.cpp)
+target_link_libraries(singleton PRIVATE fmt::fmt)
+target_link_libraries(singleton PRIVATE compile_flags_interface)
+
+add_executable(multiton)
+target_sources(multiton PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/multiton.cpp)
+target_link_libraries(multiton PRIVATE fmt::fmt)
+target_link_libraries(multiton PRIVATE compile_flags_interface)
