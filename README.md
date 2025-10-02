@@ -1,17 +1,46 @@
 # Modern C++
 
-## C++11
+A comprehensive study note for Modern C++ programming language, covering language features, standard library, design patterns, and best practices.
+
+## Table of Contents
+
+- [C++ Version Features](#c-version-features)
+  - [C++11](#c11)
+  - [C++14](#c14)
+  - [C++17](#c17)
+  - [C++20](#c20)
+  - [C++23](#c23)
+- [Language Fundamentals](#language-fundamentals)
+  - [Basics](#basics)
+  - [OOP](#oop)
+  - [Template (Meta Programming)](#template-meta-programming)
+  - [Translation Units](#translation-units)
+- [Standard Library](#standard-library)
+  - [Containers and Utilities](#containers-and-utilities)
+  - [Functional Programming](#functional-programming)
+  - [Concurrency](#concurrency)
+  - [Utilities](#utilities)
+- [Design Patterns](#design-patterns)
+  - [SOLID Principles](#solid-principles)
+  - [Creational Patterns](#creational-patterns)
+  - [Structural Patterns](#structural-patterns)
+
+---
+
+## C++ Version Features
+
+### C++11
 
 - `auto` keyword
 - [Constant Expression](./src/basics/const-vol.cpp)
 - [Move Semantic](./src/oop/ctor-dtor.cpp)
 
-## C++14
+### C++14
 
 - [Variable Template](./src/template/variable.cpp)
 - [Generic Lambda](./src/basics/func.cpp)
 
-## C++17
+### C++17
 
 - Initializing statement
   - `if(int y = x + 1 > 10)`
@@ -28,7 +57,7 @@
 - [Any](./src/std/optional-any.cpp)
 - [File System](./src/std/fs.cpp)
 
-## C++20
+### C++20
 
 - `auto` as function parameter type
 - Initializing statement
@@ -51,7 +80,7 @@
 - `std::format`, `std::span`
 - Ranges
 
-## C++23
+### C++23
 
 - `if consteval`
 - Multidimensional subscript operator
@@ -59,7 +88,11 @@
 - `static int operator()`, `static int operator[]`
 - `std::print`, `std::println`
 
-## Basics
+---
+
+## Language Fundamentals
+
+### Basics
 
 - [Types](./src/basics/types.cpp)
   - Fundamental types
@@ -114,7 +147,7 @@
   - `#pragma`
   - Token-pasting macro
 
-## OOP
+### OOP
 
 - [Class](./src/oop/class.cpp)
   - Hierarchy
@@ -144,7 +177,7 @@
     - Equivalent to trivial copyable and standard layout
     - Deprecated in C++20
 
-## Template (Meta programming)
+### Template (Meta programming)
 
 - [Function template](./src/template/func.cpp)
   - Template argument deduction
@@ -158,7 +191,7 @@
 - [SFINAE](./src/template/SFINAE.cpp)
 - [Variadic template](./src/template/variadic.cpp)
 
-## Translation Units
+### Translation Units
 
 - [Linkage](./src/linkage)
   - Internal and external
@@ -167,3 +200,90 @@
 - One definition rule
 - `inline` functions and variables
 - [Namespace](./src/basics/namespace.cpp)
+
+## Standard Library
+
+### Containers and Utilities
+- [Array](./src/std/array.cpp)
+  - Multi-dimensional arrays
+- [String](./src/std/string.cpp)
+  - String view
+  - String conversions
+  - `from_chars`, `to_chars`
+- [Optional](./src/std/optional-any.cpp)
+  - Optional values
+  - `std::nullopt`
+- [Any](./src/std/optional-any.cpp)
+  - Type-safe container for any type
+- [Variant](./src/std/variant.cpp)
+  - Type-safe union
+  - `std::visit`
+
+### Functional Programming
+- [Functional](./src/std/functional.cpp)
+  - `std::function`
+  - `std::bind`
+  - `std::invoke`
+
+### Concurrency
+- [Thread](./src/std/thread.cpp)
+  - Thread creation and management
+  - `std::mutex`, `std::shared_mutex`
+  - `std::condition_variable`
+  - `std::call_once`, `std::once_flag`
+  - `std::atomic`
+- [Async](./src/std/async.cpp)
+  - `std::async`
+  - `std::future`, `std::promise`
+  - `std::packaged_task`
+- [Memory Order](./src/std/memory-order.cpp)
+  - Memory ordering for atomics
+  - Acquire-release semantics
+
+### Utilities
+- [File System](./src/std/fs.cpp)
+  - Path operations
+  - Directory iteration
+  - File operations
+- [Time](./src/std/time.cpp)
+  - `std::chrono`
+  - Time operations
+- [Random](./src/std/rand.cpp)
+  - Random number generation
+  - Distributions
+- [Math](./src/std/math.cpp)
+  - Mathematical functions
+  - Numeric limits
+- [I/O](./src/std/io.cpp)
+  - Stream operations
+  - File I/O
+  - Formatting
+
+## Design Patterns
+
+### SOLID Principles
+- [SOLID](./src/design/SOLID.cpp)
+  - Single Responsibility Principle
+  - Open/Closed Principle
+  - Liskov Substitution Principle
+  - Interface Segregation Principle
+  - Dependency Inversion Principle
+
+### Creational Patterns
+- [Factory](./src/design/creational/factory.cpp)
+  - Factory method
+  - Abstract factory
+- [Builder](./src/design/creational/builder.cpp)
+  - Step-by-step object construction
+- [Singleton](./src/design/creational/singleton.cpp)
+  - Thread-safe singleton
+- [Prototype](./src/design/creational/prototype.cpp)
+  - Cloning objects
+- [Multiton](./src/design/creational/multiton.cpp)
+  - Multiple named instances
+
+### Structural Patterns
+- [Adapter](./src/design/structural/adapter.cpp)
+  - Interface adaptation
+- [Pimpl](./src/design/structural/pimpl.cpp)
+  - Pointer to implementation idiom
