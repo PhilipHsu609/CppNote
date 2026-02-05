@@ -1,3 +1,7 @@
+/* Font imports */
+@import url('https://cdn.jsdelivr.net/gh/bitmaks/cm-web-fonts@latest/fonts.css');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap');
+
 /* Sidebar spacing for floating style */
 .sidebar-item {
   padding: 0.25rem 0;
