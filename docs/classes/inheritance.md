@@ -2,7 +2,6 @@
 title: "Inheritance"
 ---
 
-# Inheritance
 
 Class hierarchies and derived types.
 

@@ -2,7 +2,6 @@
 title: "Namespaces"
 ---
 
-# Namespaces
 
 Organize code and prevent name collisions.
 

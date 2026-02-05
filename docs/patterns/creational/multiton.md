@@ -2,7 +2,6 @@
 title: "Multiton Pattern"
 ---
 
-# Multiton Pattern
 
 Named instances with controlled creation (variation of Singleton).
 

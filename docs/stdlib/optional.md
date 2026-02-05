@@ -3,7 +3,6 @@ title: "std::optional"
 since: "C++17"
 ---
 
-# std::optional
 
 Nullable value wrapper.
 

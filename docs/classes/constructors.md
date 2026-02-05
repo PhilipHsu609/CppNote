@@ -2,7 +2,6 @@
 title: "Constructors"
 ---
 
-# Constructors
 
 Object initialization and construction.
 

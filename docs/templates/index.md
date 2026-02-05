@@ -2,7 +2,6 @@
 title: "Templates"
 ---
 
-# Templates
 
 Generic programming and compile-time computation.
 

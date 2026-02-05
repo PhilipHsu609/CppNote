@@ -3,7 +3,6 @@ title: "Random Numbers"
 since: "C++11"
 ---
 
-# Random Numbers
 
 Modern random number generation.
 

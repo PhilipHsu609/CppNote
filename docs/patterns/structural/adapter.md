@@ -2,7 +2,6 @@
 title: "Adapter Pattern"
 ---
 
-# Adapter Pattern
 
 Convert one interface to another.
 

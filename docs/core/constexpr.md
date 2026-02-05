@@ -3,7 +3,6 @@ title: "constexpr"
 since: "C++11"
 ---
 
-# constexpr
 
 Enables compile-time evaluation for variables and functions.
 

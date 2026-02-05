@@ -2,7 +2,6 @@
 title: "Template Basics"
 ---
 
-# Template Basics
 
 Generic programming with function, class, and variable templates.
 

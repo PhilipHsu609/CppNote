@@ -2,7 +2,6 @@
 title: "Initialization"
 ---
 
-# Initialization
 
 How variables get their initial values.
 

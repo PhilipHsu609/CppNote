@@ -2,7 +2,6 @@
 title: "Concurrency"
 ---
 
-# Concurrency
 
 Parallel and asynchronous programming.
 

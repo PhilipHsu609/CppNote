@@ -2,7 +2,6 @@
 title: "SFINAE"
 ---
 
-# SFINAE
 
 Substitution Failure Is Not An Error.
 

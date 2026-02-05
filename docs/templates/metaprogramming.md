@@ -2,7 +2,6 @@
 title: "Template Metaprogramming"
 ---
 
-# Template Metaprogramming
 
 Compile-time computation using templates.
 

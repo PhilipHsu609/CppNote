@@ -2,7 +2,6 @@
 title: "Bit Fields"
 ---
 
-# Bit Fields
 
 Variables with predefined bit widths within a struct.
 

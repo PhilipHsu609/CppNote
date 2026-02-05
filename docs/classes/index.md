@@ -2,7 +2,6 @@
 title: "Classes"
 ---
 
-# Classes
 
 Object-oriented programming and the C++ object model.
 

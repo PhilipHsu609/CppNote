@@ -2,7 +2,6 @@
 title: "Destructors"
 ---
 
-# Destructors
 
 Object cleanup when lifetime ends.
 

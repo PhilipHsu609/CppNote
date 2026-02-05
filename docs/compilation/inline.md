@@ -2,7 +2,6 @@
 title: "Inline"
 ---
 
-# Inline
 
 Multiple definitions allowed across translation units.
 

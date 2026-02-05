@@ -2,7 +2,6 @@
 title: "Preprocessor"
 ---
 
-# Preprocessor
 
 Directives processed before compilation.
 

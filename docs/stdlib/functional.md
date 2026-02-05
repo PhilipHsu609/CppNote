@@ -3,7 +3,6 @@ title: "std::function and Functional"
 since: "C++11"
 ---
 
-# Functional Utilities
 
 Function wrappers, binding, and invocation.
 

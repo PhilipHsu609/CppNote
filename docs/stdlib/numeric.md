@@ -2,7 +2,6 @@
 title: "Numeric Utilities"
 ---
 
-# Numeric Utilities
 
 Math functions and numeric limits.
 

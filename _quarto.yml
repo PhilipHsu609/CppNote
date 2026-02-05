@@ -4,29 +4,102 @@ project:
 
 website:
   title: "Modern C++ Notes"
-  navbar:
-    left:
-      - text: Core
-        href: docs/core/index.md
-      - text: Classes
-        href: docs/classes/index.md
-      - text: Templates
-        href: docs/templates/index.md
-      - text: Memory
-        href: docs/memory/index.md
-      - text: Stdlib
-        href: docs/stdlib/index.md
-      - text: Concurrency
-        href: docs/concurrency/index.md
-      - text: Compilation
-        href: docs/compilation/index.md
-      - text: Patterns
-        href: docs/patterns/index.md
-      - text: Third-Party
-        href: docs/thirdparty/index.md
   sidebar:
-    style: floating
+    style: docked
     search: true
+    collapse-level: 1
+    contents:
+      - href: index.md
+        text: Home
+      - section: "Core"
+        href: docs/core/index.md
+        contents:
+          - docs/core/types.md
+          - docs/core/const.md
+          - docs/core/constexpr.md
+          - docs/core/volatile.md
+          - docs/core/initialization.md
+          - docs/core/enums.md
+          - docs/core/structs.md
+          - docs/core/bitfields.md
+          - docs/core/unions.md
+          - docs/core/functions.md
+          - docs/core/lambdas.md
+          - docs/core/namespaces.md
+          - docs/core/attributes.md
+          - docs/core/preprocessor.md
+      - section: "Classes"
+        href: docs/classes/index.md
+        contents:
+          - docs/classes/basics.md
+          - docs/classes/constructors.md
+          - docs/classes/destructors.md
+          - docs/classes/copy-move.md
+          - docs/classes/inheritance.md
+          - docs/classes/virtual.md
+          - docs/classes/operators.md
+          - docs/classes/object-layout.md
+          - docs/classes/raii.md
+      - section: "Templates"
+        href: docs/templates/index.md
+        contents:
+          - docs/templates/basics.md
+          - docs/templates/deduction.md
+          - docs/templates/specialization.md
+          - docs/templates/variadic.md
+          - docs/templates/sfinae.md
+          - docs/templates/type-traits.md
+          - docs/templates/metaprogramming.md
+      - section: "Memory"
+        href: docs/memory/index.md
+        contents:
+          - docs/memory/allocation.md
+          - docs/memory/memory-order.md
+      - section: "Standard Library"
+        href: docs/stdlib/index.md
+        contents:
+          - docs/stdlib/containers/array.md
+          - docs/stdlib/containers/string.md
+          - docs/stdlib/optional.md
+          - docs/stdlib/variant.md
+          - docs/stdlib/any.md
+          - docs/stdlib/functional.md
+          - docs/stdlib/chrono.md
+          - docs/stdlib/random.md
+          - docs/stdlib/numeric.md
+          - docs/stdlib/filesystem.md
+          - docs/stdlib/io.md
+      - section: "Concurrency"
+        href: docs/concurrency/index.md
+        contents:
+          - docs/concurrency/threads.md
+          - docs/concurrency/mutex.md
+          - docs/concurrency/condition-variable.md
+          - docs/concurrency/atomic.md
+          - docs/concurrency/future-promise.md
+          - docs/concurrency/async.md
+      - section: "Compilation"
+        href: docs/compilation/index.md
+        contents:
+          - docs/compilation/translation-units.md
+          - docs/compilation/linkage.md
+          - docs/compilation/inline.md
+      - section: "Patterns"
+        href: docs/patterns/index.md
+        contents:
+          - docs/patterns/solid.md
+          - docs/patterns/creational/factory.md
+          - docs/patterns/creational/builder.md
+          - docs/patterns/creational/singleton.md
+          - docs/patterns/creational/prototype.md
+          - docs/patterns/creational/multiton.md
+          - docs/patterns/structural/adapter.md
+          - docs/patterns/structural/pimpl.md
+      - section: "Third-Party"
+        href: docs/thirdparty/index.md
+        contents:
+          - docs/thirdparty/fmt.md
+          - docs/thirdparty/gtest.md
   page-footer:
     center: "C++ Study Notes"
 
@@ -35,11 +108,9 @@ format:
     theme:
       light: flatly
       dark: darkly
+    css: styles.css
     code-copy: true
     code-overflow: wrap
     toc: true
     toc-depth: 2
-
-execute:
-  enabled: true
-  echo: true
+    title-block-banner: false

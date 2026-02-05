@@ -3,7 +3,6 @@ title: "Mutex and Locks"
 since: "C++11"
 ---
 
-# Mutex and Locks
 
 Thread synchronization primitives.
 

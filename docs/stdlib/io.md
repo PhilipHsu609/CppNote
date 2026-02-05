@@ -2,7 +2,6 @@
 title: "I/O Streams"
 ---
 
-# I/O Streams
 
 Input/output operations.
 

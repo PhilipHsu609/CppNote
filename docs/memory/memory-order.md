@@ -3,7 +3,6 @@ title: "Memory Ordering"
 since: "C++11"
 ---
 
-# Memory Ordering
 
 Control how atomic operations are ordered across threads.
 

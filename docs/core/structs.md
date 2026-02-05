@@ -2,7 +2,6 @@
 title: "Structures"
 ---
 
-# Structures
 
 Aggregate types grouping related data.
 

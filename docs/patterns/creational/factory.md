@@ -2,7 +2,6 @@
 title: "Factory Pattern"
 ---
 
-# Factory Pattern
 
 Create objects without exposing creation logic.
 

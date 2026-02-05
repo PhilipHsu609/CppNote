@@ -2,7 +2,6 @@
 title: "Singleton Pattern"
 ---
 
-# Singleton Pattern
 
 Ensure a class has only one instance.
 

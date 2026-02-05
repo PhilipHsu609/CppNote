@@ -3,7 +3,6 @@ title: "Lambda Expressions"
 since: "C++11"
 ---
 
-# Lambda Expressions
 
 Anonymous function objects.
 

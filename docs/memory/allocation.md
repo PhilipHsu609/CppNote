@@ -2,7 +2,6 @@
 title: "Memory Allocation"
 ---
 
-# Memory Allocation
 
 Dynamic memory management with new/delete.
 

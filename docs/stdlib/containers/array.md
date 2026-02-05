@@ -3,7 +3,6 @@ title: "std::array"
 since: "C++11"
 ---
 
-# std::array
 
 Fixed-size array with STL interface.
 

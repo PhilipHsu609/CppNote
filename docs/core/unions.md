@@ -2,7 +2,6 @@
 title: "Unions"
 ---
 
-# Unions
 
 Overlapping storage where all members share the same memory location.
 

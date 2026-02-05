@@ -3,7 +3,6 @@ title: "Condition Variables"
 since: "C++11"
 ---
 
-# Condition Variables
 
 Wait for conditions in multi-threaded code.
 

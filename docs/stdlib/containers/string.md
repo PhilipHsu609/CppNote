@@ -2,7 +2,6 @@
 title: "std::string"
 ---
 
-# std::string
 
 Dynamic character sequence.
 

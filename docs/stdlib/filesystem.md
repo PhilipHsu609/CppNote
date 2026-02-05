@@ -3,7 +3,6 @@ title: "std::filesystem"
 since: "C++17"
 ---
 
-# Filesystem
 
 Cross-platform file and directory operations.
 

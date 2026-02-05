@@ -3,7 +3,6 @@ title: "std::variant"
 since: "C++17"
 ---
 
-# std::variant
 
 Type-safe union.
 

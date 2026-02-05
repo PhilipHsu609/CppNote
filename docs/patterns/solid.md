@@ -2,7 +2,6 @@
 title: "SOLID Principles"
 ---
 
-# SOLID Principles
 
 Five design principles for maintainable OOP code.
 

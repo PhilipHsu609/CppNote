@@ -3,7 +3,6 @@ title: "Attributes"
 since: "C++11"
 ---
 
-# Attributes
 
 Compiler hints and metadata using `[[attribute]]` syntax.
 

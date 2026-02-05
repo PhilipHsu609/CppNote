@@ -2,7 +2,6 @@
 title: "Linkage"
 ---
 
-# Linkage
 
 How names are visible across translation units.
 

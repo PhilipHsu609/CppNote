@@ -2,7 +2,6 @@
 title: "Builder Pattern"
 ---
 
-# Builder Pattern
 
 Construct complex objects step by step.
 

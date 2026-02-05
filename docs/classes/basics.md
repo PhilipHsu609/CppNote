@@ -2,7 +2,6 @@
 title: "Class Basics"
 ---
 
-# Class Basics
 
 Fundamental class concepts in C++.
 

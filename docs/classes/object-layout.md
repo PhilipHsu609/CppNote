@@ -2,7 +2,6 @@
 title: "Object Layout"
 ---
 
-# Object Layout
 
 How objects are stored in memory.
 

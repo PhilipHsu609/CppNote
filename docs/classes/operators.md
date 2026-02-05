@@ -2,7 +2,6 @@
 title: "Operator Overloading"
 ---
 
-# Operator Overloading
 
 Custom operators for user-defined types.
 

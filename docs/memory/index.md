@@ -2,7 +2,6 @@
 title: "Memory"
 ---
 
-# Memory
 
 Memory and resource management.
 

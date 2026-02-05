@@ -2,7 +2,6 @@
 title: "Pimpl Idiom"
 ---
 
-# Pimpl (Pointer to Implementation)
 
 Hide implementation details to reduce compile dependencies.
 

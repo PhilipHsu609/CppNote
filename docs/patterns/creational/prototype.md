@@ -2,7 +2,6 @@
 title: "Prototype Pattern"
 ---
 
-# Prototype Pattern
 
 Create new objects by cloning existing ones.
 

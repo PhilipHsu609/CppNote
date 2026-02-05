@@ -2,7 +2,6 @@
 title: "Types"
 ---
 
-# Types
 
 C++ type system: fundamental types, compound types, and type conversions.
 

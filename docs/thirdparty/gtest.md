@@ -2,7 +2,6 @@
 title: "Google Test"
 ---
 
-# Google Test
 
 C++ testing framework.
 

@@ -2,7 +2,6 @@
 title: "fmt"
 ---
 
-# fmt
 
 Modern formatting library (basis for C++20 `std::format`).
 

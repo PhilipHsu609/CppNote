@@ -2,7 +2,6 @@
 title: "volatile"
 ---
 
-# volatile
 
 Tells the compiler to avoid aggressive memory optimizations for a variable.
 

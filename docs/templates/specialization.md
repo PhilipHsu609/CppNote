@@ -2,7 +2,6 @@
 title: "Template Specialization"
 ---
 
-# Template Specialization
 
 Custom implementations for specific types.
 

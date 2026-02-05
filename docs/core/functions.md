@@ -2,7 +2,6 @@
 title: "Functions"
 ---
 
-# Functions
 
 Function declarations, overloading, and function pointers.
 

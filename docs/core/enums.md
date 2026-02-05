@@ -2,7 +2,6 @@
 title: "Enumerations"
 ---
 
-# Enumerations
 
 Type-safe enumerated constants.
 

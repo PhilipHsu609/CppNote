@@ -3,7 +3,6 @@ title: "std::async"
 since: "C++11"
 ---
 
-# std::async
 
 High-level asynchronous execution.
 

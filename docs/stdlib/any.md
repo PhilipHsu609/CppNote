@@ -3,7 +3,6 @@ title: "std::any"
 since: "C++17"
 ---
 
-# std::any
 
 Type-erased container for any single value.
 

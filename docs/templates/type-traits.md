@@ -3,7 +3,6 @@ title: "Type Traits"
 since: "C++11"
 ---
 
-# Type Traits
 
 Compile-time type introspection and manipulation.
 

@@ -3,7 +3,6 @@ title: "Variadic Templates"
 since: "C++11"
 ---
 
-# Variadic Templates
 
 Templates with variable number of arguments.
 

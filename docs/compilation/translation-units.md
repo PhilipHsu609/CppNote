@@ -2,7 +2,6 @@
 title: "Translation Units"
 ---
 
-# Translation Units
 
 The unit of compilation in C++.
 

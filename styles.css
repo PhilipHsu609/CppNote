@@ -1,0 +1,39 @@
+/* Sidebar spacing improvements */
+.sidebar-item {
+  padding: 0.3rem 0;
+}
+
+.sidebar-section .sidebar-item {
+  padding: 0.2rem 0;
+}
+
+/* Section headers */
+.sidebar .chapter-title {
+  font-weight: 600;
+  padding: 0.5rem 0;
+}
+
+/* More breathing room */
+.sidebar-navigation {
+  padding: 1rem;
+}
+
+/* Increase content area width */
+.content {
+  max-width: 900px;
+}
+
+/* Better code block spacing */
+pre {
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+/* Table improvements */
+table {
+  margin: 1rem 0;
+}
+
+th, td {
+  padding: 0.5rem 1rem;
+}

@@ -2,7 +2,6 @@
 title: "Design Patterns"
 ---
 
-# Design Patterns
 
 Software design patterns in C++.
 

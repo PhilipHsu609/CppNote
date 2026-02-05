@@ -2,7 +2,6 @@
 title: "Standard Library"
 ---
 
-# Standard Library
 
 C++ standard library components.
 

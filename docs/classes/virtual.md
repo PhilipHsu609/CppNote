@@ -2,7 +2,6 @@
 title: "Virtual Functions"
 ---
 
-# Virtual Functions
 
 Runtime polymorphism through dynamic dispatch.
 

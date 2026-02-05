@@ -2,7 +2,6 @@
 title: "Third-Party Libraries"
 ---
 
-# Third-Party Libraries
 
 Popular libraries that extend C++ capabilities.
 

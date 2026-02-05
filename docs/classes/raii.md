@@ -2,7 +2,6 @@
 title: "RAII"
 ---
 
-# RAII
 
 Resource Acquisition Is Initialization.
 

@@ -3,7 +3,6 @@ title: "Future and Promise"
 since: "C++11"
 ---
 
-# Future and Promise
 
 Asynchronous result communication.
 

@@ -3,7 +3,6 @@ title: "std::chrono"
 since: "C++11"
 ---
 
-# Chrono
 
 Time utilities and clocks.
 

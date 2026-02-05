@@ -2,7 +2,6 @@
 title: "Modern C++ Notes"
 ---
 
-# Modern C++ Notes
 
 A study reference for Modern C++ programming, covering language features, standard library, and design patterns.
 

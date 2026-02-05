@@ -2,7 +2,6 @@
 title: "Core"
 ---
 
-# Core Language Features
 
 Fundamental C++ language features.
 

@@ -2,7 +2,6 @@
 title: "Compilation"
 ---
 
-# Compilation
 
 C++ build model and linkage.
 

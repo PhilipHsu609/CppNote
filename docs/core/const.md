@@ -2,7 +2,6 @@
 title: "const"
 ---
 
-# const
 
 The `const` qualifier marks variables as immutable.
 

@@ -3,7 +3,6 @@ title: "Threads"
 since: "C++11"
 ---
 
-# Threads
 
 Thread creation and management.
 

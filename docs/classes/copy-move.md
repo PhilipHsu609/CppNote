@@ -2,7 +2,6 @@
 title: "Copy and Move"
 ---
 
-# Copy and Move
 
 Value semantics and efficient transfers.
 

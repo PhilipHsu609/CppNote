@@ -3,7 +3,6 @@ title: "Atomic Operations"
 since: "C++11"
 ---
 
-# Atomic Operations
 
 Lock-free thread-safe operations.
 

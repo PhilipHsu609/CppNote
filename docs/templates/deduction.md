@@ -2,7 +2,6 @@
 title: "Template Argument Deduction"
 ---
 
-# Template Argument Deduction
 
 How the compiler infers template arguments.
 
