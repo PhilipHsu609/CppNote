@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Modern C++ Notes"
+  navbar:
+    left:
+      - text: Core
+        href: docs/core/index.md
+      - text: Classes
+        href: docs/classes/index.md
+      - text: Templates
+        href: docs/templates/index.md
+      - text: Memory
+        href: docs/memory/index.md
+      - text: Stdlib
+        href: docs/stdlib/index.md
+      - text: Concurrency
+        href: docs/concurrency/index.md
+      - text: Compilation
+        href: docs/compilation/index.md
+      - text: Patterns
+        href: docs/patterns/index.md
+      - text: Third-Party
+        href: docs/thirdparty/index.md
+  sidebar:
+    style: floating
+    search: true
+  page-footer:
+    center: "C++ Study Notes"
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    code-copy: true
+    code-overflow: wrap
+    toc: true
+    toc-depth: 2
+
+execute:
+  enabled: true
+  echo: true

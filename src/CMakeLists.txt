@@ -1,2 +1,0 @@
-add_subdirectory(linkage)
-add_subdirectory(design)
