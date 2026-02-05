@@ -1,8 +1,0 @@
-/.cache/
-/.vscode/
-/bin/
-/build/
-
-/.quarto/
-/_site/
-**/*.quarto_ipynb
