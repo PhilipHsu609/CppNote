@@ -1,13 +1,23 @@
 /*-- scss:defaults --*/
-$link-color: #2D5A7B;
-$primary: #2D5A7B;
-$code-color: #2D5A7B;
+$body-bg: #eff1f5;
+$body-color: #4c4f69;
+$link-color: #1e66f5;
+$primary: #1e66f5;
+$code-color: #1e66f5;
 
 /*-- scss:rules --*/
 .sidebar .chapter-title {
-  color: #2D5A7B;
+  color: #1e66f5;
 }
 
 #quarto-header {
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #bcc0cc;
+}
+
+pre, code, div.sourceCode {
+  background-color: #e6e9ef !important;
+}
+
+pre.sourceCode {
+  border: 1px solid #bcc0cc;
 }

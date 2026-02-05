@@ -35,11 +35,11 @@ table {
 
 th, td {
   padding: 0.5rem 1rem;
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #bcc0cc;
 }
 
 /* Dark mode table borders */
 body.quarto-dark th,
 body.quarto-dark td {
-  border-bottom: 1px solid #2a2a2a;
+  border-bottom: 1px solid #494d64;
 }
