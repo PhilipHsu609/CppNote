@@ -2,290 +2,290 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/index.html</loc>
-    <lastmod>2026-02-05T14:37:31.824Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.461Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/templates/sfinae.html</loc>
-    <lastmod>2026-02-05T14:37:31.824Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.460Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/templates/type-traits.html</loc>
-    <lastmod>2026-02-05T14:37:31.824Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.461Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/templates/specialization.html</loc>
-    <lastmod>2026-02-05T14:37:31.824Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.460Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/templates/variadic.html</loc>
-    <lastmod>2026-02-05T14:37:31.824Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.461Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/memory/memory-order.html</loc>
-    <lastmod>2026-02-05T14:37:31.822Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.458Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/core/initialization.html</loc>
-    <lastmod>2026-02-05T14:37:31.821Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.457Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/core/types.html</loc>
-    <lastmod>2026-02-05T14:37:31.822Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.458Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/core/structs.html</loc>
-    <lastmod>2026-02-05T14:37:31.822Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.458Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/core/volatile.html</loc>
-    <lastmod>2026-02-05T14:37:31.822Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.458Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/core/unions.html</loc>
-    <lastmod>2026-02-05T14:37:31.822Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.458Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/core/namespaces.html</loc>
-    <lastmod>2026-02-05T14:37:31.821Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.458Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/core/attributes.html</loc>
-    <lastmod>2026-02-05T14:37:31.821Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.457Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/core/bitfields.html</loc>
-    <lastmod>2026-02-05T14:37:31.821Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.457Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/thirdparty/fmt.html</loc>
-    <lastmod>2026-02-05T14:37:31.824Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.461Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/stdlib/chrono.html</loc>
-    <lastmod>2026-02-05T14:37:31.823Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.459Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/stdlib/io.html</loc>
-    <lastmod>2026-02-05T14:37:31.823Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.460Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/stdlib/any.html</loc>
-    <lastmod>2026-02-05T14:37:31.823Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.459Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/stdlib/containers/array.html</loc>
-    <lastmod>2026-02-05T14:37:31.823Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.459Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/stdlib/random.html</loc>
-    <lastmod>2026-02-05T14:37:31.823Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.460Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/stdlib/variant.html</loc>
-    <lastmod>2026-02-05T14:37:31.824Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.460Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/patterns/solid.html</loc>
-    <lastmod>2026-02-05T14:37:31.822Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.459Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/patterns/structural/adapter.html</loc>
-    <lastmod>2026-02-05T14:37:31.823Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.459Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/patterns/creational/multiton.html</loc>
-    <lastmod>2026-02-05T14:37:31.822Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.459Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/patterns/creational/singleton.html</loc>
-    <lastmod>2026-02-05T14:37:31.822Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.459Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/patterns/creational/prototype.html</loc>
-    <lastmod>2026-02-05T14:37:31.822Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.459Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/classes/constructors.html</loc>
-    <lastmod>2026-02-05T14:37:31.819Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.456Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/classes/object-layout.html</loc>
-    <lastmod>2026-02-05T14:37:31.820Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.456Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/classes/inheritance.html</loc>
-    <lastmod>2026-02-05T14:37:31.820Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.456Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/classes/operators.html</loc>
-    <lastmod>2026-02-05T14:37:31.820Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.456Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/classes/copy-move.html</loc>
-    <lastmod>2026-02-05T14:37:31.819Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.456Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/compilation/translation-units.html</loc>
-    <lastmod>2026-02-05T14:37:31.820Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.456Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/compilation/linkage.html</loc>
-    <lastmod>2026-02-05T14:37:31.820Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.456Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/concurrency/index.html</loc>
-    <lastmod>2026-02-05T14:37:31.821Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.457Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/concurrency/future-promise.html</loc>
-    <lastmod>2026-02-05T14:37:31.821Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.457Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/concurrency/atomic.html</loc>
-    <lastmod>2026-02-05T14:37:31.820Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.457Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/concurrency/mutex.html</loc>
-    <lastmod>2026-02-05T14:37:31.821Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.457Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/concurrency/threads.html</loc>
-    <lastmod>2026-02-05T14:37:31.821Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.457Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/concurrency/condition-variable.html</loc>
-    <lastmod>2026-02-05T14:37:31.820Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.457Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/concurrency/async.html</loc>
-    <lastmod>2026-02-05T14:37:31.820Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.457Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/compilation/inline.html</loc>
-    <lastmod>2026-02-05T14:37:31.820Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.456Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/compilation/index.html</loc>
-    <lastmod>2026-02-05T14:37:31.820Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.456Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/classes/raii.html</loc>
-    <lastmod>2026-02-05T14:37:31.820Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.456Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/classes/virtual.html</loc>
-    <lastmod>2026-02-05T14:37:31.820Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.456Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/classes/destructors.html</loc>
-    <lastmod>2026-02-05T14:37:31.820Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.456Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/classes/basics.html</loc>
-    <lastmod>2026-02-05T14:37:31.819Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.455Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/classes/index.html</loc>
-    <lastmod>2026-02-05T14:37:31.820Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.456Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/patterns/creational/factory.html</loc>
-    <lastmod>2026-02-05T14:37:31.822Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.458Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/patterns/creational/builder.html</loc>
-    <lastmod>2026-02-05T14:37:31.822Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.458Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/patterns/structural/pimpl.html</loc>
-    <lastmod>2026-02-05T14:37:31.823Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.459Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/patterns/index.html</loc>
-    <lastmod>2026-02-05T14:37:31.822Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.459Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/stdlib/numeric.html</loc>
-    <lastmod>2026-02-05T14:37:31.823Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.460Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/stdlib/functional.html</loc>
-    <lastmod>2026-02-05T14:37:31.823Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.460Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/stdlib/filesystem.html</loc>
-    <lastmod>2026-02-05T14:37:31.823Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.460Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/stdlib/containers/string.html</loc>
-    <lastmod>2026-02-05T14:37:31.823Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.459Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/stdlib/optional.html</loc>
-    <lastmod>2026-02-05T14:37:31.823Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.460Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/stdlib/index.html</loc>
-    <lastmod>2026-02-05T14:37:31.823Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.460Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/thirdparty/gtest.html</loc>
-    <lastmod>2026-02-05T14:37:31.824Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.461Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/thirdparty/index.html</loc>
-    <lastmod>2026-02-05T14:37:31.824Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.461Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/core/lambdas.html</loc>
-    <lastmod>2026-02-05T14:37:31.821Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.458Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/core/constexpr.html</loc>
-    <lastmod>2026-02-05T14:37:31.821Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.457Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/core/functions.html</loc>
-    <lastmod>2026-02-05T14:37:31.821Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.457Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/core/const.html</loc>
-    <lastmod>2026-02-05T14:37:31.821Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.457Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/core/enums.html</loc>
-    <lastmod>2026-02-05T14:37:31.821Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.457Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/core/preprocessor.html</loc>
-    <lastmod>2026-02-05T14:37:31.821Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.458Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/core/index.html</loc>
-    <lastmod>2026-02-05T14:37:31.821Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.457Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/memory/allocation.html</loc>
-    <lastmod>2026-02-05T14:37:31.822Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.458Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/memory/index.html</loc>
-    <lastmod>2026-02-05T14:37:31.822Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.458Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/templates/deduction.html</loc>
-    <lastmod>2026-02-05T14:37:31.824Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.460Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/templates/metaprogramming.html</loc>
-    <lastmod>2026-02-05T14:37:31.824Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.460Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/templates/basics.html</loc>
-    <lastmod>2026-02-05T14:37:31.824Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.460Z</lastmod>
   </url>
   <url>
     <loc>https://PhilipHsu609.github.io/CppNote/docs/templates/index.html</loc>
-    <lastmod>2026-02-05T14:37:31.824Z</lastmod>
+    <lastmod>2026-02-05T15:19:44.460Z</lastmod>
   </url>
 </urlset>

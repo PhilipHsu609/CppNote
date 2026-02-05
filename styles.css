@@ -1,26 +1,24 @@
-/* Sidebar spacing improvements */
+/* Sidebar spacing for floating style */
 .sidebar-item {
-  padding: 0.3rem 0;
+  padding: 0.25rem 0;
 }
 
 .sidebar-section .sidebar-item {
   padding: 0.2rem 0;
 }
 
-/* Section headers */
+/* Section headers - styled */
 .sidebar .chapter-title {
   font-weight: 600;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
   padding: 0.5rem 0;
 }
 
-/* More breathing room */
+/* Sidebar navigation padding */
 .sidebar-navigation {
   padding: 1rem;
-}
-
-/* Increase content area width */
-.content {
-  max-width: 900px;
 }
 
 /* Better code block spacing */
@@ -32,8 +30,16 @@ pre {
 /* Table improvements */
 table {
   margin: 1rem 0;
+  border-collapse: collapse;
 }
 
 th, td {
   padding: 0.5rem 1rem;
+  border-bottom: 1px solid #dee2e6;
+}
+
+/* Dark mode table borders */
+body.quarto-dark th,
+body.quarto-dark td {
+  border-bottom: 1px solid #2a2a2a;
 }
